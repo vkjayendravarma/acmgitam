@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@font-face {
+    font-family: event;
+    src: url('../fonts/Ansley Display-Regular.ttf');
+}
+body{ 
+	background-color: #CEBF9C;
+background-image: url("../images/back6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+	color: #000;
+}
+
+.section{
+	padding: 10%;
+	min-height: 100vh;
+	
+}
+
+.section img{
+	width: 80%;	
+}
+
+.details{
+	text-align: center;
+	color: #000;
+}
+.details h2{
+	font-family: event;
+	font-size: 40px;
+  letter-spacing: 10px;
+  font-weight: 700;
+}
+
+.details p{
+	font-family: 'Ubuntu', sans-serif;
+	 font-size: 19px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  
+}
+@media screen and (max-width: 500px) {
+	.section{
+		margin-top: 20%;
+		padding: 5%;
+	}
+	.details h2{
+		font-size: 23px;
+		letter-spacing: 5px;
+	}
+}
+
+@media screen and (min-width: 501px) and (max-width: 1030px) {
+	.section{
+		margin-top: 17%;
+	}
+}

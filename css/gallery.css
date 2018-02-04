@@ -1,0 +1,118 @@
+@font-face {
+    font-family: section-headding;
+    src: url('../fonts/Monthoers.otf');
+}
+
+body{
+    background-image: url("../images/back6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.gallery-container{
+    margin-top: 7%;
+}
+
+.gallery-imgs {
+    padding-right: 13.5%;
+    padding-left: 13.5%;
+    padding-bottom: 6%;
+
+}
+
+
+.gallery-imgs .lightbox img {
+    width: 250px;
+    height: 180px;
+    margin-bottom: 8%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+.gallery-imgs .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.gallery-imgs img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.section-header{
+  font-family: section-headding;
+  font-size: 45px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  color: brown;
+  text-align: center;
+  padding: 2%;
+}
+
+@media only screen and (max-width : 363px){
+ .gallery-container{
+    margin-top: 20%;
+}
+ .section-header{
+  font-size: 24px;
+  letter-spacing: 3px;
+  padding: 2%;
+ }
+ 
+}
+
+@media only screen and (min-width : 363px) and (max-width: 380px){
+ .gallery-container{
+    margin-top: 20%;
+}
+ .section-header{
+  font-size: 23px;
+  letter-spacing: 2px;
+  padding: 2%;
+ }
+ 
+   
+}
+
+@media only screen and (min-width : 381px) and (max-width : 450px){
+ .gallery-container{
+    margin-top: 20%;
+}
+ .section-header{
+  font-size: 25px;
+  letter-spacing: 4px;
+  padding: 2%;
+ }
+  
+}
+
+@media only screen and (min-height: 1300px){
+  .gallery-imgs{
+   padding-right: 10%;
+    padding-left: 8.5%;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 800px){
+  .gallery-imgs{
+   padding-right: 13.5%;
+    padding-left: 13.5%;
+  }     
+}
+
+@media screen and (min-width: 1015px) and (max-width: 1030px) {
+  .gallery-imgs{
+   padding-right: 7% !important;
+    padding-left: 7% !important;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .gallery-imgs{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}

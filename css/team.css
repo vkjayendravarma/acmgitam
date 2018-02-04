@@ -1,0 +1,86 @@
+@font-face {
+    font-family: name;
+    src: url('../fonts/BerkshireSwash-Regular.ttf');
+}
+@font-face {
+    font-family: EM-PH;
+    src: url('../fonts/Courier Prime.ttf');
+}
+
+body
+{
+  background-image: url("../images/back6.jpg");
+
+  background-size: 100% 100% !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+  
+
+ .members{
+  margin-top: 10%;
+ }
+ .member-image{
+  width: 220px;
+  height: 233.2px;
+  padding: 5px;
+  border: 1px solid #000;
+  margin-top:20px !important; 
+
+ }
+
+ 
+ .name{
+  text-align: center;
+  margin-bottom: 2%;  
+  font-family: name;
+  margin-top: 15px;
+  color: #000000;
+ } 
+ .designation{
+  text-align: center;
+  font-style: normal;
+  font-size: 16px;
+  font-family: name;
+ }
+ .e-Mail{  
+  text-align: center;
+  font-family: EM-PH;
+  font-size: 13px;
+ }
+ .phone{
+  text-align: center;
+  padding-bottom: 8%;
+  font-family: EM-PH;
+  font-size: 13px;
+ }
+
+ .card{
+  width: 280px;
+  height: 460px;
+  margin-bottom: 10%;
+  background-color: #FAEBD7;  
+  border: 3px solid #000;
+ }
+ .card img{
+  margin-top: 10px;
+ }
+ .facebook-icon{
+  font-size: 20px;  
+ }
+ 
+ @media only screen and (max-device-width : 440px) {
+  .members{
+      margin-top: 30% !important;
+      margin-bottom: 20%; 
+    }
+  }
+
+  @media screen and (min-width: 750px) and (max-width: 780px) {
+    .void-space{
+      display: none;
+    }
+    .members{
+  margin-top: 16%;
+ }
+  }

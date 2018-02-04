@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu');
+@font-face {
+    font-family: contact;
+    src: url('../fonts/Ansley Display-Regular.ttf');
+}
+
+
+body{
+  background-image: url("../images/back6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.main-body{  
+  padding-top: 8%;
+}
+
+
+ input,  textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+.contact {
+  border: solid 3px #474544;
+  width: 90%;
+  margin: 60px auto;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10%;
+  -webkit-box-shadow: 0 0 70px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 70px rgba(0, 0, 0, 0.1);
+}
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+
+.form {
+  padding: 37.5px;
+  padding-top: 0px !important;
+  margin: 50px 0;
+}
+
+.contact-header {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: contact;  
+}
+
+
+.email { 
+  width: 100%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+}
+
+.message {
+  float: none;
+}
+
+.name {  
+  width: 100%;
+}
+.telephone {
+  width: 100%;
+}
+
+textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #474544;
+}
+
+:-moz-placeholder { 
+  color: #474544;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: contact;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-header {
+    font-size: 26px;
+  }
+  
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .contact-header {
+    font-size: 18px;
+  }
+
+  .intro-p{
+    margin-top: 14%;
+  }
+  
+  
+  
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
+
+.card{
+  margin: 60px auto;
+}
+
+
+.intro-p{
+  padding-left: 7%;
+  padding-right: 10%;
+  padding-top: 1.5%;
+font-family: 'Ubuntu', sans-serif;
+  font-size: 21px;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-height: 1150px){
+ footer{
+  position: fixed;
+  bottom: 0px;
+ }
+}
+
+.con{
+  margin: 200px auto;
+  width: 100%;
+
+}
+.con .logoimg{
+  width: 30%;
+  height: auto;
+
+
+}
+
+.phone-number{
+font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 450;
+  padding-top: 3%;
+
+}
+
+.email-id{
+font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 450;
+  padding-top: 2%;
+  
+  
+}
+
+.icons{
+  margin-right: 3%;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 980px) {
+  .con{
+  margin: 60px auto;
+  width: 100%;
+
+}
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  .intro{
+    margin-top: 5%;
+  }
+  
+}
+
+@media screen and (min-width: 1010px) and (max-width: 1030px) {
+  .main-body{
+    padding-top: 10% !important;
+  }
+  
+}

@@ -1,0 +1,111 @@
+
+@font-face {
+    font-family: copyrights;
+    src: url('../fonts/Courier Prime.ttf');
+}
+@font-face {
+    font-family: pg-tite;
+    src: url('../fonts/Ansley Display-Inline.ttf');
+}
+
+
+.header1{
+  position: fixed;
+  top: 0px;
+  height: 70px;
+  width: 100%;   
+  padding: 0%;
+  -webkit-box-shadow: 0 0 10px 1px #000000;
+  box-shadow: 0 0 10px 1px #000000;
+  z-index: 99;
+  background-color: #0c0c0c;
+}
+
+.header1 h1{
+  font-family: pg-tite;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+
+}
+
+
+.logohead{
+position: absolute;
+top: 50%;
+left: 5%;
+transform: translate(-50%,-50%);
+width: 50px;
+}
+
+footer{
+
+    background-color: #0c0c0c;
+  width: 100%;
+  -webkit-box-shadow: 0 0 10px 1px #000000;
+box-shadow: 0 0 10px 1px #000000;
+padding: 0.1%;
+
+ }
+.copyrights{
+  padding: 1.9%;
+  padding-bottom: 1.5% !important;
+  padding-top: 2.2% !important;
+  font-size: 16px;
+  color: white;
+  text-align: left;
+font-family: copyrights;
+
+ }
+ footer .icons {
+  margin-top:  5%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 0;
+  letter-spacing: 30px;
+ }
+
+ footer .icons a{
+  color: white;
+  opacity: 0.8;
+  transition: all 0.2s;
+ }
+
+ footer .icons a:hover{
+  opacity: 1
+ }
+ @media only screen and (max-width : 450px) {
+  footer .copyrights{    
+    font-size: 12px;
+  }
+  footer .icons{
+    font-size: 20px;
+    margin-top: -1%;
+    letter-spacing: 15px;
+  }
+  .header1 h1{
+    font-size: 26px;
+  }
+
+}
+
+@media screen and (max-width: 770px) {
+   footer .copyrights{
+    text-align: center;   
+  }
+}
+
+@media screen and (max-width: 550px) {
+  
+.logohead{
+position: absolute;
+top: 50%;
+left: 8%;
+transform: translate(-50%,-50%);
+width: 40px;
+}
+}
+
+
+
+

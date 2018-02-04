@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans|Ubuntu');
+body{ 
+background-image: url("../images/back6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+	color: #000;
+}
+
+.about-section{
+  padding-top: 2%;
+}
+
+
+.section1{
+	width: 100%;
+	padding: 6% 6% 1.5% 7%;
+}
+
+.section2{
+	width: 100%;
+	padding: 1.5% 6% 1.5% 7%;
+}
+
+.section3{
+	width: 100%;
+padding: 1.5% 6% 6% 7%;
+}
+
+.headding{
+font-family: 'Bubblegum Sans', cursive;
+  font-size: 45px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  color: rgb(4, 8, 15);
+  text-align: center;
+}
+
+
+.content{
+	padding-left: 7%;
+	padding-right: 10%;
+	padding-top: 1.5%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 19px;
+  letter-spacing: 1px;
+  color: #000;
+  text-align: center;
+}
+
+@media only screen and (max-width : 450px){
+ .about-section{
+  padding-top: 14% ;
+  padding-bottom: 6% ;
+ }
+ .headding{
+  font-size: 23px;
+ }
+ .content{
+  font-size: 14px;  
+ }
+}
+
+@media only screen and (min-width : 450px) and (max-width: 780px){
+ .about-section{
+  padding-top: 6% ;
+  padding-bottom: 6% ;
+ }
+
+}
+
+@media screen and (min-height: 1300px) {
+  .section1{
+    padding-top: 13.5% ;
+  }
+  .section2{
+    padding-top: 6.5% ;
+  }
+  .section3{
+    padding-top: 7% ;
+    padding-bottom: 7%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

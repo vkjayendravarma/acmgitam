@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{ 
+background-image: url("../images/back6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+	color: #000;
+}
+
+.bio{
+	padding: 9% 10% 3% 10%;
+	font-size: 19px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	z-index: 1;
+}
+
+.img-abhi1{
+	height: 41vh;
+	width: auto;
+	float: left;
+}
+
+.bio a {
+	color: rgba(0,0,0,0.6);
+	transition: all 0.2s;
+	text-decoration: none;
+}
+
+.bio a:hover{
+	color: rgba(0,0,0,1);
+}
+
+.p-abhi{
+	font-size: 26px;
+}
+.callender{
+	font-size: 27px;
+}
+
+.img-abhi2{
+	height: 41.5vh;
+	width: auto;
+	float: right;
+}
+
+@media screen and (max-width: 500px) {
+	.bio{
+		margin-top: 15%;
+	}
+	
+}
+
+@media screen and (min-width: 1250px) {
+	.bio{
+		min-height: 93.5vh;
+	}
+}
+
+@media screen and (min-width: 1350px) {
+	footer{
+		position: relative;
+		bottom: 0;
+	}
+}
+
+@media screen and (min-width: 750px) and (max-width: 800px) {
+	.bio{
+		margin-top: 6%;
+	}
+}
+
+@media screen and (min-width: 1015px) and (max-width: 1040px) {
+	.bio{
+		min-height: 96vh;
+	}
+}

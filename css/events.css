@@ -1,0 +1,151 @@
+
+body{
+   background-image: url("../images/back6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.techcellence{
+	width: 100%;
+  margin-top: 10.5%;
+  background: transparent;
+}
+ .pagination {
+    display: inline-block;
+    
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination a.active {
+    background-color: #5C101D;
+    color: white;
+}
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+@media only screen and (max-width : 450px){
+  .techcellence{
+    margin-top: 30%;
+  }  
+}
+@media only screen and (min-width:  750px) and (max-width : 800px){
+  .techcellence{
+    margin-top: 18%;
+  }  
+}
+@media only screen and (min-width:  1010px) and (max-width : 1040px){
+   .techcellence{
+    margin-top: 13%;
+  }  
+}
+
+@font-face {
+  font-family: "button";
+  src: url('../fonts/BrandonGrotesque-Regular.ttf');
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+@font-face {
+    font-family: event;
+    src: url('../fonts/Ansley Display-Regular.ttf');
+}
+@font-face {
+    font-family: date;
+    src: url('../fonts/Courier Prime.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  width: 280px;
+  height: 315px;  
+  border-radius: 5px;
+  box-shadow: 0 0 7px rgba(0,0,0,0.5);
+  overflow: hidden;
+  transition: all 0.5s;
+  background-color: #FAEBD7;
+  margin-bottom: 10%;
+}
+.card .event-img img{
+   width: 280px;
+  height: 195px;  
+}
+.card .infos {
+  text-align: left;
+  width: 280px;
+  height: 320px;
+  position: relative;
+  padding: 5%;
+  padding-top: 7%; 
+  background-color: #FAEBD7;
+  -webkit-transition: 0.4s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+  transition: 0.4s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+.card .infos .title {
+  position: relative;
+  color: #152536;
+  font-family: event;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.card .infos .date {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: rgba(21, 37, 54, 0.7);
+font-family: date;
+}
+
+.card .infos .txt {
+font-family: 'Ubuntu', sans-serif;
+  line-height: 2;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(21, 37, 54, 0.7);
+  opacity: 0;
+  -webkit-transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+.card .infos .details {
+  position: absolute;
+  bottom: 8%;
+  letter-spacing: 1px;
+  color: rgba(0,0,0,0.5);
+  font-family: "button";
+  font-size: 16px;
+  text-transform: uppercase;
+  opacity: 0;
+  font-weight: 650;
+  -webkit-transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+
+ .card:hover {
+   -webkit-box-shadow: 0 0 70px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 70px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+
+
+}
+.card:hover .infos {
+  -webkit-transform: translateY(-200px);
+          transform: translateY(-200px);
+}
+.card:hover .infos .txt, .card:hover .infos .details {
+  opacity: 1;
+}
+
+
+
+
+
